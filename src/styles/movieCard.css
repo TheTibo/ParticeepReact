@@ -1,0 +1,24 @@
+.movieCard {
+  text-align: center;
+  padding: 15px;
+  height: 160px;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+
+.youtubeType {
+  margin: 20px;
+  text-decoration: 5px underline yellow;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  margin-left: 90%;
+  width: 25px;
+  height: 25px;
+}

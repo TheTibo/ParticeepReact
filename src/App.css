@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-image: url(./assets//moviebg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

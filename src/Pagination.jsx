@@ -13,7 +13,7 @@ export default function Pagination({
     <div className="pageContainer">
       <div className="pageButtons">
         <img
-          src="src\assets\n4w.png"
+          src="n4w.png"
           className="imgPage"
           onClick={() => handleItemsPerPageChange(4)}
         />

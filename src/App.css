@@ -5,15 +5,30 @@
 }
 
 .app {
-  background-image: url(./assets//moviebg.jpg);
+  background-image: url(./assets//mobilebg.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
 }
+h1 {
+  font-size: 16px;
+}
 
-.movieList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+@media screen and (min-width: 1068px) {
+  .app {
+    background-image: url(./assets//moviebg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
 }

@@ -1,9 +1,8 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import "./styles/movieCard.css";
 
-// eslint-disable-next-line react/prop-types
 export default function MovieCard({ movie, onClick }) {
-  // eslint-disable-next-line react/prop-types
   const { id, title, category, likes, dislikes } = movie;
 
   const handleDelete = () => {
@@ -19,7 +18,7 @@ export default function MovieCard({ movie, onClick }) {
   return (
     <div className="Container">
       <div className="movieCard">
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <p>{category}</p>
 
         <p onClick={handleToggleLikeDislike} className="youtubeType">
@@ -28,7 +27,7 @@ export default function MovieCard({ movie, onClick }) {
 
         <img
           src="src\assets\deleteIcon.png"
-          alt="Delete Icon"
+          alt="DeleteIcon"
           className="deleteIcon"
           onClick={handleDelete}
         />
@@ -36,3 +35,13 @@ export default function MovieCard({ movie, onClick }) {
     </div>
   );
 }
+MovieCard.propTypes = {
+  movie: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+    likes: PropTypes.number.isRequired,
+    dislikes: PropTypes.number.isRequired,
+  }).isRequired,
+  onClick: PropTypes.func.isRequired,
+};

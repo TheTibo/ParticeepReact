@@ -1,0 +1,74 @@
+.pageContainer {
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.pageButtons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.imgPage {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.buttonPreviousNext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonPreviousNext > button {
+    margin: 20px;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .buttonPreviousNext > p {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+
+@media screen and (min-width: 1068px) {
+  .pageContainer {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .pageButtons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgPage {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  .buttonPreviousNext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonPreviousNext > button {
+    margin: 20px;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .buttonPreviousNext > p {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}

@@ -26,7 +26,7 @@ export default function MovieCard({ movie, onClick }) {
         </p>
 
         <img
-          src="/ParticeepReact/assets/deleteIcon.png"
+          src="./assets/deleteIcon.png"
           alt="DeleteIcon"
           className="deleteIcon"
           onClick={handleDelete}

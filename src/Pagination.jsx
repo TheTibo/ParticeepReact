@@ -13,19 +13,19 @@ export default function Pagination({
     <div className="pageContainer">
       <div className="pageButtons">
         <img
-          src="n4w.png"
+          src="./assets/n4w.png"
           className="imgPage"
           onClick={() => handleItemsPerPageChange(4)}
         />
 
         <img
-          src="src\assets\n8w.png"
+          src="./assets/n8w.png"
           className="imgPage"
           onClick={() => handleItemsPerPageChange(8)}
         />
 
         <img
-          src="src\assets\n12w.png"
+          src="./assets/n12w.png"
           className="imgPage"
           onClick={() => handleItemsPerPageChange(12)}
         />

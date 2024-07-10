@@ -69,27 +69,6 @@ const movies = [
     likes: 22,
     dislikes: 12,
   },
-  {
-    id: "11",
-    title: "The Lord of the Rings : Film I",
-    category: "Fantasy adventure",
-    likes: 9999,
-    dislikes: 0,
-  },
-  {
-    id: "12",
-    title: "The Lord of the Rings: Film II",
-    category: "Fantasy adventure",
-    likes: 9999,
-    dislikes: 0,
-  },
-  {
-    id: "13",
-    title: "The Lord of the Rings: Film III",
-    category: "Fantasy adventure",
-    likes: 9999,
-    dislikes: 0,
-  },
 ];
 
 export const movies$ = new Promise((resolve, reject) =>
